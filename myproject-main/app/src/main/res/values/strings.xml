@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">mHealthApplication</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Acasa </string>
+    <string name="consum">Consum</string>
+    <string name="settings">Settings</string>
+    <string name="note">note</string>
+    <string name="pacienti">Pacienti</string>
+    <string name="teste_cognitive">Teste Cognitive</string>
+    <string name="calendar">Calendar</string>
+    <string name="teste_cognitive_disponibile">Teste Cognitive Disponibile</string>
+    <string name="lista_pacienti">Lista pacienti</string>
+</resources>

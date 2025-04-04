@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_home"
+        android:title="@string/home"
+        android:icon="@drawable/home" />
+
+    <item android:id="@+id/action_pacienti"
+        android:title="@string/pacienti"
+        android:icon="@drawable/baseline_people_24" />
+
+    <item android:id="@+id/action_teste"
+        android:title="@string/teste_cognitive"
+        android:icon="@drawable/baseline_account_tree_24" />
+
+    <item android:id="@+id/action_calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/baseline_access_time_filled_24" />
+</menu>
