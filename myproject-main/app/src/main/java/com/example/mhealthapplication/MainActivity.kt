@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
 // definire clasa care reprezinta o activitate (fereastra a apliicatie)
+// comment Liudaa
 
 class MainActivity : AppCompatActivity() {
     //Declară o variabilă privată de tip BottomNavigationView pe care o vei inițializa ulterior (prin lateinit).

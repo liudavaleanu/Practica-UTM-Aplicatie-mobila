@@ -1,0 +1,7 @@
+<!-- bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="Acasă"/>
+    <item android:id="@+id/nav_pacienti" android:icon="@drawable/ic_users" android:title="Pacienți"/>
+    <item android:id="@+id/nav_teste" android:icon="@drawable/ic_test" android:title="Teste cognitive"/>
+    <item android:id="@+id/nav_calendar" android:icon="@drawable/ic_calendar" android:title="Calendar"/>
+</menu>
