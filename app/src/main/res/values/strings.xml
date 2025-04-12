@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NeuroCare</string>
+    <string name="acasa">Acasă</string>
+    <string name="pacienti">Pacienți</string>
+    <string name="teste_cognitive">Teste cognitive</string>
+    <string name="calendar">Calendar</string>
+</resources>
