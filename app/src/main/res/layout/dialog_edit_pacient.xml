@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editNume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nume"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editVarsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vârstă"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextDiagnostic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diagnostic"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTratament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tratament"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextObservatii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Observații"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+</ScrollView>

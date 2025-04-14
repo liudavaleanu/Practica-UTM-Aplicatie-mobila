@@ -5,4 +5,48 @@
     <item name="testeTitle" type="id" />
     <item name="header_layout_calendar" type="id" />
     <item name="calendarTitle" type="id" />
+    <item name="addPatientButton" type="id" />
+    <item name="numePacient" type="id" />
+    <item name="diagnosticPacient" type="id" />
+    <item name="tratamentPacient" type="id" />
+    <item name="varstaPacient" type="id" />
+    <item name="observatiiPacient" type="id" />
+    <item name="deleteIcon" type="id" />
+    <item name="detaliiNume" type="id" />
+    <item name="detaliiDiagnostic" type="id" />
+    <item name="detaliiTratament" type="id" />
+    <item name="detaliiVarsta" type="id" />
+    <item name="detaliiObservatii" type="id" />
+    <item name="btnSterge" type="id" />
+    <item name="btnEdit" type="id" />
+    <item name="inputEditNume" type="id" />
+    <item name="inputEditDiagnostic" type="id" />
+    <item name="inputEditTratament" type="id" />
+    <item name="inputEditVarsta" type="id" />
+    <item name="inputEditObservatii" type="id" />
+    <item name="textEmptyList" type="id" />
+    <item name="textViewDiagnosis" type="id" />
+    <item name="tvNume" type="id" />
+    <item name="tvVarsta" type="id" />
+    <item name="tvDiagnostic" type="id" />
+    <item name="tvTratament" type="id" />
+    <item name="tvObservatii" type="id" />
+    <item name="editNume" type="id" />
+    <item name="editVarsta" type="id" />
+    <item name="editDiagnostic" type="id" />
+    <item name="editTratament" type="id" />
+    <item name="editObservatii" type="id" />
+    <item name="textViewNume" type="id" />
+    <item name="textViewVarsta" type="id" />
+    <item name="editTextName" type="id" />
+    <item name="editTextAge" type="id" />
+    <item name="editTextDiagnostic" type="id" />
+    <item name="editTextTratament" type="id" />
+    <item name="editTextObservatii" type="id" />
+    <item name="textViewPatientCount" type="id" />
+    <item name="textViewDateTime" type="id" />
+    <item name="editTextNumePacient" type="id" />
+    <item name="editTextScopProgramare" type="id" />
+    <item name="textViewOra" type="id" />
+    <item name="buttonSelecteazaOra" type="id" />
 </resources>

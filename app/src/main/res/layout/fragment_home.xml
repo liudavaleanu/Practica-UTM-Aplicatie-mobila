@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_color"
@@ -20,19 +22,34 @@
             android:id="@+id/appTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NeuroCare"
+            android:text="@string/Neurocare"
             android:textStyle="italic"
             android:textSize="22sp"
             android:textColor="#000000"
             android:fontFamily="sans-serif-medium"
             android:gravity="center" />
+
+        <!-- ✅ Buton de logout -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            tools:ignore="RelativeOverlap" />
     </RelativeLayout>
 
+    <!-- Text bun venit -->
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bine ai venit,\nDoctor House"
+        android:text="@string/bine_ai_venit_ndoctor_house"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
@@ -40,28 +57,31 @@
         app:layout_constraintTop_toBottomOf="@id/header_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp" />
 
+    <!-- ⏰ Data și ora dinamică -->
     <TextView
-        android:id="@+id/dateText"
+        android:id="@+id/textViewDateTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2 apr. 2025, 10:25"
+        android:text="--/--/---- --:--"
         android:textSize="14sp"
         android:textColor="#EAEAEA"
         app:layout_constraintTop_toBottomOf="@id/welcomeText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- 👥 Număr pacienți dinamic -->
     <TextView
-        android:id="@+id/patientInfo"
+        android:id="@+id/textViewPatientCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aveți 22 de pacienți sub observație."
+        android:text="Aveți 0 pacienți sub observație."
         android:textSize="16sp"
         android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@id/dateText"
+        app:layout_constraintTop_toBottomOf="@id/textViewDateTime"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="32dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

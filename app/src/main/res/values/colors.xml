@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="bg_color">#F2DDF8</color>
     <color name="primary_blue">#2679a5</color>
     <color name="my_light_primary">#2679a5</color>
     <color name="my_light_secondary">#EBDCF7</color>
@@ -11,4 +12,10 @@
     <color name="my_light_on_background">#000000</color>
     <color name="my_light_on_surface">#000000</color>
     <color name="my_light_on_error">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Culoare header lipsă -->
+    <color name="header_background">#F2DDF8</color>
 </resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:padding="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editTextNume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nume pacient"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data (ex: 15/04/2025)"
+            android:inputType="date"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewOra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ora selectată:"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonOra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alege ora"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextScop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Scopul programării"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/buttonSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvează programarea"
+            android:backgroundTint="#2679a5"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

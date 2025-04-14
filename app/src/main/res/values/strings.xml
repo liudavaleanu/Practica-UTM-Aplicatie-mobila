@@ -1,7 +1,43 @@
 <resources>
     <string name="app_name">NeuroCare</string>
-    <string name="acasa">Acasă</string>
-    <string name="pacienti">Pacienți</string>
+
+    <!-- Navigare principală -->
+    <string name="acasa">Acasa</string>
+    <string name="pacienti">Pacienti</string>
     <string name="teste_cognitive">Teste cognitive</string>
     <string name="calendar">Calendar</string>
+    <string name="logout">Logout</string>
+
+    <!-- Headeruri / UI -->
+    <string name="bine_ai_venit_ndoctor_house">Bine ai venit,\nDoctor House</string>
+    <string name="_2_apr_2025_10_25">2 apr. 2025, 10:25</string>
+    <string name="ave_i_22_de_pacien_i_sub_observa_ie">Aveti 22 de pacienți sub observație.</string>
+    <string name="nu_exist_pacien_i_n_acest_moment">Nu exista pacienti in acest moment.</string>
+
+    <!-- Formulare pacient -->
+    <string name="nume">Nume</string>
+    <string name="varsta">Varsta</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="tratament">Tratament</string>
+    <string name="observatii">Observatii</string>
+
+    <!-- Etichete formatate (pentru listă/fisa pacient) -->
+    <string name="label_nume">Nume: %1$s</string>
+    <string name="label_varsta">Vârstă: %1$d</string>
+    <string name="label_diagnostic">Diagnostic: %1$s</string>
+    <string name="label_tratament">Tratament: %1$s</string>
+    <string name="label_observatii">Observații: %1$s</string>
+
+    <!-- Autentificare -->
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="inregistrare">Inregistrare</string>
+
+    <!-- Diverse -->
+    <string name="todo">TODO</string>
+    <string name="neurocare">neurocare\n\n</string>
+    <string name="Neurocare">Neurocare</string>
+    <string name="Inapoi">Inapoi</string>
+    <string name="nume_pacient">Nume pacient</string>
 </resources>
